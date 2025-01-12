@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html, body {
+    height: 200%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Numans', sans-serif;
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/X7GsUQD03wFwhBVX-5xJc2usu_s=/4496x3000/top/filters:format_auto():quality(85):extract_cover()/2023/03/31/635/n/1922507/0ff296bdff33183c_tim-gouw-tseFnmif_MQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* height: 370px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(104, 111, 248);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px; */
+    height: 370px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.social_icon span {
+    font-size: 40px;
+    margin: 5px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+#errorMessage {
+    font-size: 14px;
+    margin-top: 10px;
+}
