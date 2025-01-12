@@ -86,7 +86,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ---
 
 ### Contributors
-
-- [Your Name](https://github.com/your-github-profile)
+Aditya Narayan 
 
 Feel free to contribute to the project by forking the repository and submitting pull requests!
